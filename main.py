@@ -10,13 +10,13 @@ from sqlalchemy import create_engine
 import urllib.parse
 
 
-api_key = "AIzaSyDRcsElw4U7Nck2_gaKE9IH_EBJ7ootkKI"
+api_key = "AIeaSyDRcsElw4U7Nck3_gaUE9lH_EtJ7ootkKI"
 api_service_name = "youtube"
 api_version = "v3"
 youtube = build(api_service_name, api_version, developerKey=api_key)
 
 # Construct the MongoDB URI with encoded username and password
-uri = f"mongodb+srv://Ram:Ram@cluster0.xk8hc.mongodb.net/"
+uri = f"mongodb+srv://Ram:Ra@cluster0.xh6hc.mongodb.net/"
 client = MongoClient(uri)
 db = client["youtube_warehousing"]
 collection = db["youtube"]
